@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data form</title>
+</head>
+<body>
+    <form name="user" action="handler.php" method="post">
+
+        <label for="firstname">Имя:</label>
+        </br>
+        <input type="text" name="firstname" id="firstname">
+        </br>
+        <p></p>
+        <label for="lastname">Фамилия:</label>
+        </br>
+        <input type="text" name="lastname" id="lastname">
+        </br>
+        <p></p>
+        <button type="submit">Отправить</button>
+        <p></p>
+    </form>
+    <div class="status-wrapper">
+        Полученные данные:
+        <div id="status"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
